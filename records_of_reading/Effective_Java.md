@@ -10,24 +10,24 @@
 ## 第2章 オブジェクトの生成と消滅
 ### コンストラクタの代わりに static ファクトリメソッドを検討する
 - 命名
-  - from: 型変換
-  - of: 集約
-  - valueOf: from や of の代わり
-  - instance/getInstance:
-  - create/newInstance: ↑とほぼ同じだが、毎回インスタンスを生成することを保証する
-  - get型名: ファクトリメソッドを持つクラスと生成されるクラスが違う場合に明示する
-  - new型名: ↑のインスタンス生成バージョン
-  - 型名: ↑二つの簡略バージョン
+  - `from`: 型変換
+  - `of`: 集約
+  - `valueOf`: `from` や `of` の代わり
+  - `instance`/`getInstance`:
+  - `create`/`newInstance`: ↑とほぼ同じだが、毎回インスタンスを生成することを保証する
+  - `get型名`: ファクトリメソッドを持つクラスと生成されるクラスが違う場合に明示する
+  - `new型名`: ↑のインスタンス生成バージョン
+  - `型名`: ↑二つの簡略バージョン
 - 長所
-  - 名前を付けられる。BigInteger(int,int,Random) より BigInteger.probablePrime の方がわかりやすい。
+  - 名前を付けられる。`new BigInteger(int,int,Random)` より `BigInteger.probablePrime` の方がわかりやすい。
   - コンストラクタと違って、毎回インスタンスを生成する必要がない。定数返すとかもできる。
   - サブタイプのオブジェクトを返せる。
   - 入力パラメータに応じて別のクラスを返すこともできる。
   - 無名クラス返すこともできる。
 - 短所
-  - private コンストラクタしかないと、サブクラスが作れない。
-    - 不幸中の幸いで、継承よりもコンポジションを促すのにつながることもある。 cf) Collection
-  - プログラマがファクトリメソッドを見つけるのが難しい。※ 確かに経験上、javax.json.JsonObject とかそうだった！
+  - `private` コンストラクタしかないと、サブクラスが作れない。
+    - 不幸中の幸いで、継承よりもコンポジションを促すのにつながることもある。 cf. `Collection`
+  - プログラマがファクトリメソッドを見つけるのが難しい。※ 確かに経験上、`javax.json.JsonObject` とかそうだった！
     - 前述の命名を守ることである程度解消
 - まとめ
   - コンストラクタとファクトリメソッドはそれぞれ長所・短所があるので、static ファクトリメソッドは一旦は検討しておこうね。
@@ -45,20 +45,20 @@
 はい
 
 ### 資源を直接結び付けるよりも依存性注入を選ぶ
-クラスの振る舞いが他の資源に依存するなら、private static final な field として持ってしまうのではなくて、
+クラスの振る舞いが他の資源に依存するなら、`private static final` な field として持ってしまうのではなくて、
 外から注入するようにしようね、というやつ。拡張性とテスタビリティが段違い。
 ※ よく使うのがあるなら factory method で提供しちゃえばいいってことかな。
 
 ### 不必要なオブジェクトの生成を避ける
-new String("hogehoge") とかやるなよって話。
-String.matches とかも、内部的に Pattern インスタンスを毎回生成してるらしいので、
-たくさん呼ぶなら Pattern を cache した方が良い。
+`new String("hogehoge")` とかやるなよって話。
+`String.matches` とかも、内部的に `Pattern` インスタンスを毎回生成してるらしいので、
+たくさん呼ぶなら `Pattern` を cache した方が良い。
 
 ### 使われなくなったオブジェクト参照を取り除く
-例えば Stack の内部実装で配列を使っている場合、pop された object のところは null で上書きしておかないと参照が生き残ってて GC が回収してくんない。
+例えば stack の内部実装で配列を使っている場合、pop された object のところは null で上書きしておかないと参照が生き残ってて GC が回収してくんない。
 
 ### ファイナライザとクリーナーを避ける
-危ないし遅いから AutoClosable を代わりに使おうね。  
+危ないし遅いから `AutoClosable` を代わりに使おうね。  
 ファイナライザ・クリーナーを使うのは、auto close のセーフティネットとしてならアリ。  
 あとネイティブピア（Java の object じゃないので GC に回収されない）の分を強制的に回収したいなら実装するしかない。
 
@@ -69,22 +69,22 @@ String.matches とかも、内部的に Pattern インスタンスを毎回生�
 ### equals をオーバーライドするときは一般契約に従う
 はい。javadoc 読もうね！  
 しないときはどういうときかというと
-- Thread とかの、本質的にすべてのインスタンスが一意の場合
-- equals を使う想定をしていない場合
+- `Thread` とかの、本質的にすべてのインスタンスが一意の場合
+- `equals` を使う想定をしていない場合
 - 可視性が低くてそもそもいろんな人が使う想定がない場合
 - スーパクラスの実装で十分な場合
 
 ### equals をオーバーライドするときは、常に hashCode をオーバーライドする
-はい。hashCode が重いなら cache してもいいよ！
+はい。`hashCode` が重いなら cache してもいいよ！
 
 ### toString を常にオーバーライドする
 はい。
 
 ### close を注意してオーバーライドする
-なんかよくわからんが Closable を実装するクラス作りたいときないし別にいいか。
+なんかよくわからんが `Closable` を実装するクラス作りたいときないし別にいいか。
 
 ### Comparable の実装を検討する
-equals と同じで契約に従おうね！  
+`equals` と同じで一般契約に従おうね！  
 オーバフローと浮動小数点誤差に気を付ける。
 
 ## 第4章 クラスとインターフェース
@@ -96,27 +96,27 @@ equals と同じで契約に従おうね！
 
 ### 可変性を最小限にする
 はい。  
-class を final にしなくても、constructor を全部 private にすることで実は同じような効果が得られる。
+class を `final` にしなくても、constructor を全部 `private` にすることで実は同じような効果が得られる。
 
 ### 継承よりもコンポジションを選ぶ
 コンポジション + 転送（いわゆる委譲）をやった方がいいときが多い。
 
 ### 継承のために設計および文書化する、でなければ継承を禁止する
-継承によりカプセル化は簡単に破壊され得る。したがって、継承可能メソッドは implSpec アノテーションによって実装要件を明示し、継承クラスはそれを遵守しなければならない。それができないなら継承はすべきでない。その場合、class を final にするか、すべてのコンストラクタを private にしてファクトリメソッドを追加するかのどちらかをしておかなければならない。
+継承によりカプセル化は簡単に破壊され得る。したがって、継承可能メソッドは implSpec アノテーションによって実装要件を明示し、継承クラスはそれを遵守しなければならない。それができないなら継承はすべきでない。その場合、class を `final` にするか、すべてのコンストラクタを `private` にしてファクトリメソッドを追加するかのどちらかをしておかなければならない。
 
 ### 抽象クラスよりもインターフェースを選ぶ
 抽象クラスは三角形、インターフェースは一点  
 つまりピンポイントで実装したいときはインターフェースが勝る  
-基本的にはインターフェース、default 実装を与えたいなら `Abstract`Interface を定義して、  
+基本的にはインターフェース、default 実装を与えたいなら `abstract` Interface を定義して、  
 template method pattern で実装する。  
 こうして作った抽象クラスの実装を骨格実装 (skeletal implementation) と呼ぶ。  
 所謂 [mixin](https://ja.wikipedia.org/wiki/Mixin) をやるのにはインターフェースが向いてる。  
 
 ### 将来のためにインタフェースを設計する
 default method によって、実行時にこける可能性がある。  
-ex) org.apache.commons.collections4.collection.SynchronizedCollection  
-同期処理をするが、 default の removeIf は同期なんて知ったこっちゃないので ConcurrentModificationException が起きる可能性がある。  
-なので、上記クラスは removeIf を override しなきゃいけない。  
+ex) `org.apache.commons.collections4.collection.SynchronizedCollection  `
+同期処理をするが、 default の `removeIf` は同期なんて知ったこっちゃないので `ConcurrentModificationException` が起きる可能性がある。  
+なので、上記クラスは `removeIf` を override しなきゃいけない（のに、していない）。  
 教訓：default method を追加するのは、compilation error は起こさないかもしれないが、論理的に実装クラスを破壊する可能性がある。
 
 ### 型を定義するためだけにインタフェースを使う
@@ -132,7 +132,7 @@ ex) org.apache.commons.collections4.collection.SynchronizedCollection
 ### 非 static のメンバークラスよりも static のメンバークラスを選ぶ
 enclosing instance: 内部クラスから見た、外部クラスのインスタンス  
 enclosing instance にアクセスする必要がある場合のみ、非 static のメンバークラスを選ぶ。  
-ex) Collection interface の実装は、イテレーションを内部クラスとして実装するために、非 static メンバークラスを一般に用いる。  
+ex) `Collection` interface の実装は、イテレーションを内部クラスとして実装するために、非 static メンバークラスを一般に用いる。  
 ネストしたクラスが、一つのメソッドの外からも見える必要があったり、メソッド内に問題なく入れるのに長すぎるならば、メンバークラスを使う。  
 その際、メンバークラスの個々のインスタンスが enclosing instance への参照を持ちたいなら、非 static にする。それ以外は static にする。  
 クラスがメソッド内に属しているべきであって、インスタンス生成をする必要のある個所が一か所に特定できる場合、  
@@ -157,43 +157,43 @@ suppress warnings の scope はなるべく狭く。method につけるのでは
 はい。
 
 ### ジェネリック型を使う
-new T[] ができない！：new Object[] として downcast するか、諦めて Object[] を持つことにして、取り出す度に T に downcast するかのどちらか。
+`new T[]` ができない！：`new Object[]` として downcast するか、諦めて `Object[]` を持つことにして、取り出す度に `T` に downcast するかのどちらか。
 
 ### ジェネリックメソッドを使う
-generic singleton factory pattern: UnaryOperator#identity とか。返すのは常に単位射で同じ instance だけど、compiler 上は parameterized なものとして扱いたいので。  
-再帰型境界 (recursive type bound): Comparable を使うときによく E extends Comparable<E> とか書くけど、あれ。
+generic singleton factory pattern: `UnaryOperator#identity` とか。返すのは常に単位射で同じ instance だけど、compiler 上は parameterized なものとして扱いたいので。  
+再帰型境界 (recursive type bound): `Comparable` を使うときによく `E extends Comparable<E>` とか書くけど、あれ。
 
 ### API の柔軟性向上のために境界ワイルドカードを使う
-はい。ImmutVOs#apply だっけ？ぼくが提唱したやつ。  
-型パラメータがめせおっど宣言中に一度しか現れないならそれをワイルドカードで置き換えられるはず。
+はい。  
+型パラメータが method 宣言中に一度しか現れないならそれをワイルドカードで置き換えられるはず。
 
 ### ジェネリックスと可変長引数を注意して組み合わせる
 ヒープ汚染：パラメータ化された方の変数が、その型ではないオブジェクトを参照している場合に発生する。コンパイラが自動生成したキャストが失敗する可能性があり、ジェネリック型システムの根本的な保証を破るものである。  
-配列自体が危険だよって話じゃね？ Integer[] を Object[] に cast しちゃうと String とかぶち込めるようになっちゃう、的な。  
+配列自体が危険だよって話じゃね？ `Integer[]` を `Object[]` に cast しちゃうと `String` とかぶち込めるようになっちゃう、的な。  
 ヒープ汚染は伝播させてはいけない = 可変長引数で受け取ったときにそれは配列として変数に保存されるが、その参照を決してその method の外側に公開してはいけない、ということ。  
 - ジェネリック可変長引数メソッドが安全である条件
   - 可変長パラメータ配列に何も保存していない。かつ
   - 信頼できないコードに対してその配列（あるいは複製）を参照できるようにしていない。
 
 ### 型安全な異種コンテナを検討する
-クラスリテラル：String.class みたいなやつ。これを引数としてどこかに渡す場合、それは型情報を伝えるためであって、そうして渡されたクラスリテラルのことを型トークン (type token) と呼ぶ。  
-型安全異種コンテナ (typesafe heterogeneous container) ：Map<Class<?>, Object> を field に持ってるやつ。
-asSubclass とか cast とかの method を駆使すると実行時に検査をすることで、compilation error とか警告とかなくコーディングすることができるようになる。エラー発生も早めることができてまあまあうれしいね。
+クラスリテラル：`String.class` みたいなやつ。これを引数としてどこかに渡す場合、それは型情報を伝えるためであって、そうして渡されたクラスリテラルのことを型トークン (type token) と呼ぶ。  
+型安全異種コンテナ (typesafe heterogeneous container) ：`Map<Class<?>, Object>` を field に持ってるやつ。
+`asSubclass` とか `cast` とかの method を駆使すると実行時に検査をすることで、compilation error とか警告とかなくコーディングすることができるようになる。エラー発生も早めることができてまあまあうれしいね。
 
 ## 第6章 enum とアノテーション
 ### int 定数の代わりに enum を使う
-int enum pattern: アンチパターン。int じゃなくても String でもだめ。  
+int enum pattern: アンチパターン。`int` じゃなくても `String` でもだめ。  
 enum ごとに分岐してやる処理 -> 定数固有メソッド実装 (constant-specific method implementation) で行ける場合もある。特に、分岐を enum class 内に定義している場合。  
 戦略 enum (strategy enum) : 例えば、曜日を定義するんだけど、週末と平日を分けたい場合、inner enum として `WEEKDAY` `WEEKEND` を持つ enum を宣言。これを曜日 enum の constructor に渡すようにする。
   
 ### 序数の代わりにインスタンスフィールドを使う
-ordinal は使うなよ。はい。
+`ordinal` は使うなよ。はい。
 
 ### ビットフィールドの代わりに EnumSet を使う
-int enum パターンと似た話。Set<Enum> を引数に受け取る method を作ることで解決する。
+int enum パターンと似た話。`Set<Enum>` を引数に受け取る method を作ることで解決する。
 
 ### 序数インデックスの代わりに EnumMap を使う
-ordinal 使うなよ。はい。EnumMap があるのでそれ使う。ネストすることもある。
+`ordinal` 使うなよ。はい。`EnumMap` があるのでそれ使う。ネストすることもある。
 
 ### 拡張可能な enum をインタフェースで模倣する
 はい。
@@ -346,7 +346,7 @@ method 短くしようね。はい。
 ※ vavr の `Try` 使えば？という話はある気がする。
 
 ### 標準的な例外を使う
-使いまわせるなら使いまわそう。ただし semantics に気を付けて使う。詳細を追加したいときは extends する。でも継承の乱用は悪。
+使いまわせるなら使いまわそう。ただし semantics に気を付けて使う。詳細を追加したいときは `extends` する。でも継承の乱用は悪。
 
 ### 抽象概念に適した例外をスローする
 例外翻訳: 低レイヤで発生した例外を、高レイヤに対して別の例外に包んで投げなおすこと。乱用は避ける。実は assertion でいいんじゃないの？とか。
@@ -368,7 +368,7 @@ method 短くしようね。はい。
 ## 第11章 並行性
 ### 共有された可変データへのアクセスを同期する
 `Thread#stop` 使うな。  
-ある変数への参照を同期したい場合、その変数への書き込み method と読み出し method の両方を syynchronized する必要がある。
+ある変数への参照を同期したい場合、その変数への書き込み method と読み出し method の両方を synchronized する必要がある。
 
 ### 過剰な同期は避ける
 同期の最中に異質な method の呼び出しは避ける。  
@@ -390,7 +390,7 @@ concurrent collection 使おうね。
 JSON とか protobuf とかで代替する。やるとしてもホワイトリスト形式で、信頼できない出所のデータストリームを deserialize しないこと。
 
 ### Serializable を細心の注意を払って実装する
-- serialVersionUID を宣言せねばならず、これを自動生成しようとすると、クラスの中身を変えるたびに変わっちゃって後方互換性がなくなる。
+- `serialVersionUID` を宣言せねばならず、これを自動生成しようとすると、クラスの中身を変えるたびに変わっちゃって後方互換性がなくなる。
 - bug とかセキュリティホールの可能性が大きくなる。
 - テスト負荷増大
 
