@@ -1,0 +1,15 @@
+classDiagram
+direction TB
+class Mediator
+class MediatorInterfaceA
+<<Interface>> MediatorInterfaceA
+class MediatorInterfaceB
+<<Interface>> MediatorInterfaceB
+Mediator --|> MediatorInterfaceA
+Mediator --|> MediatorInterfaceB
+class ObjectA
+class ObjectB
+Mediator --> ObjectA
+Mediator --> ObjectB
+ObjectA --> MediatorInterfaceA
+ObjectB --> MediatorInterfaceB
