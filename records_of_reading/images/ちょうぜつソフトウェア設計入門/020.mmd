@@ -1,0 +1,14 @@
+classDiagram
+  class UsbPort {
+    +pluginKeyboard()
+    +pluginMouse()
+  }
+  class AbstractUsbDevice {
+    +connect()
+  }
+  class UsbKeyboard
+  class UsbMouse
+  <<Abstract>> AbstractUsbDevice
+  UsbKeyboard --|> AbstractUsbDevice
+  UsbMouse --|> AbstractUsbDevice
+  UsbPort --> AbstractUsbDevice
