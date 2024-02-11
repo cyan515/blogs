@@ -1,0 +1,13 @@
+classDiagram
+class PackageUser
+PackageUser --> FacadeInterface
+class FacadeInterface
+<<Interface>> FacadeInterface
+class Facade
+Facade --|> FacadeInterface
+class FeatureA
+class FeatureB
+class FeatureC
+Facade --> FeatureA
+Facade --> FeatureB
+Facade --> FeatureC
