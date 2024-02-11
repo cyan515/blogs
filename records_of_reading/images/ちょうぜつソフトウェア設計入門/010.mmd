@@ -1,0 +1,9 @@
+classDiagram
+  class UsbKeyboard
+  class UsbMouse
+  class UsbPort {
+    +pluginKeyboard()
+    +pluginMouse()
+  }
+  UsbPort --> UsbKeyboard
+  UsbPort --> UsbMouse

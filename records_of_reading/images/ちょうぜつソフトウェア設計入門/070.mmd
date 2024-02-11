@@ -1,0 +1,21 @@
+classDiagram
+direction TB
+class PetBuyer {
+    +buyPet(PetShop, string)
+}
+class PetShopInterface {
+    +createPet() Pet
+}
+<<Interface>> PetShopInterface
+class PetShop {
+    +createPet() Pet
+}
+class Pet
+<<Abstract>> Pet
+class Cat
+Class Dog
+PetBuyer --> Pet
+PetShop --|> PetShopInterface
+PetBuyer --> PetShopInterface
+Cat --|> Pet
+Dog --|> Pet

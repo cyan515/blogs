@@ -1,0 +1,17 @@
+classDiagram
+direction BT
+class PetBuyer {
+    +buyPet(PetShop, string)
+}
+class PetShop {
+    +createPet() Pet
+}
+class Pet
+<<Abstract>> Pet
+class Cat
+Class Dog
+Cat --|> Pet
+Dog --|> Pet
+PetShop --> Pet
+PetBuyer --> PetShop
+PetBuyer --> Pet
