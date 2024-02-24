@@ -1,4 +1,4 @@
-![image](https://gist.github.com/assets/81094959/eb10fc2c-2714-4a4f-a8f7-b970d7911337)
+![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
 # この記事に書いてあること
 レート遷移のグラフを見ての通り、2021年の夏から2023年の頭までコンテストに出ておらず、ブランクとなっています。まったく問題を解いていなかったわけではないですが、解いた問題に大したものは含まれていないため、実質休止期間です。
@@ -578,7 +578,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 
 # 水色になった今、何をやっているか？
 特に変わったことをやっているわけでもないのですが、水 diff 埋めを積極的にやるようになりました。AtCoder Problems の heat map を見てみるとこんな感じです。
-![image](https://gist.github.com/assets/81094959/f4da4af1-c6a7-4df8-b613-bc6840814947)
+![](./images/cyan_が_AtCoder_で_cyan_になるまで/heat_map.png)
 
 前述したもの以外でもライブラリ化したものが若干増えており、
 - [重み付き Union Find](https://zenn.dev/reputeless/books/standard-cpp-for-competitive-programming/viewer/weighted-union-find)
