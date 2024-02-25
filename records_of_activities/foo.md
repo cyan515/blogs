@@ -69,36 +69,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 # 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
 <details><summary>2024-01</summary><div>
-
-  - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
-  - 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)
-  - 水 [E. Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)
-  - 水 [E. Non-Decreasing Colorful Path](https://atcoder.jp/contests/abc335/tasks/abc335_e)
-  - 水 [F. Sugoroku](https://atcoder.jp/contests/abc146/tasks/abc146_f)
-  - 茶 [D. Loong and Takahashi](https://atcoder.jp/contests/abc335/tasks/abc335_d)
-  - 茶 [C. Loong Tracking](https://atcoder.jp/contests/abc335/tasks/abc335_c)
-  - 茶 [B. log](https://atcoder.jp/contests/arc109/tasks/arc109_b)
-  - 緑 [E. Sequence Sum](https://atcoder.jp/contests/abc179/tasks/abc179_e)
-  - 緑 [E. Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e)
-  - 緑 [E. Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)
-  - 緑 [E. Souvenir](https://atcoder.jp/contests/abc286/tasks/abc286_e)
-  - 緑 [E. Count Simple Paths](https://atcoder.jp/contests/abc284/tasks/abc284_e)
-  - 緑 [E. Train](https://atcoder.jp/contests/abc192/tasks/abc192_e)
-  - 緑 [E. Crystal Switches](https://atcoder.jp/contests/abc277/tasks/abc277_e)
-  - 緑 [E. Round Trip](https://atcoder.jp/contests/abc276/tasks/abc276_e)
-  - 緑 [E. Grid Filling](https://atcoder.jp/contests/abc278/tasks/abc278_e)
-  - 緑 [C. Repsept](https://atcoder.jp/contests/abc174/tasks/abc174_c)
-  - 緑 [E. This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)
-  - 緑 [D. Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d)
-  - 緑 [D. Draw Your Cards](https://atcoder.jp/contests/abc260/tasks/abc260_d)
-  - 水 [F. Regular Triangle Inside a Rectangle](https://atcoder.jp/contests/abc292/tasks/abc292_f)
-  - 水 [F. Teleporter and Closed off](https://atcoder.jp/contests/abc291/tasks/abc291_f)
-  - 水 [E. Bishop 2](https://atcoder.jp/contests/abc246/tasks/abc246_e)
-  - 青 [E. Magical Ornament](https://atcoder.jp/contests/abc190/tasks/abc190_e)
-  - 水 [E. Traveling Salesman among Aerial Cities](https://atcoder.jp/contests/abc180/tasks/abc180_e)
-  - 水 [E. Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)
-  - 水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
-  - 水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)
+  <ul>
+  <li>- 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)</li>
+  <li>- 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)</li>
+  <li>- 水 [E. Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)</li>
+  <li>- 水 [E. Non-Decreasing Colorful Path](https://atcoder.jp/contests/abc335/tasks/abc335_e)</li>
+  </ul>
 </div></details>
 
 <details>
