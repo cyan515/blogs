@@ -3,8 +3,6 @@
     <link rel="stylesheet" href="https://cyan515.github.io/blogs/records_of_activities/css/cyan.css" type="text/css">
   </head>
   <body>
-  </body>
-</html>
 
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
@@ -680,3 +678,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 ありがとうございました。
 
 [トップへ戻る](https://cyan515.github.io/blogs/)
+
+  </body>
+</html>
