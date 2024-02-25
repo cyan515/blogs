@@ -1,18 +1,24 @@
+
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
 # この記事に書いてあること
 
-レート遷移のグラフを見ての通り、2021年の夏から2023年の頭までコンテストに出ておらず、ブランクとなっています。まったく問題を解いていなかったわけではないですが、解いた問題に大したものは含まれていないため、実質休止期間です。
+レートのグラフを見ればわかる通り、2021年の夏から2023年の頭までコンテストに出てませんでした。精進もほぼしておらず、実質休止期間です。
 
-また、この辺も別の記事で追々話せればと思いますが、2021年に入緑しているものの、大した知識はなかったです。
-
-覚えている範囲だと、学んでいたのは BFS/DFS/二分探索/尺取法/imos法/ダイクストラ法 とかそんな感じだったと思います。学んでいた、と言っても、使いこなせているわけでは全然なくて、触れたことがある、程度だったと思います。[difficultyが年間50くらい厳しくなってる](https://twitter.com/chokudai/status/1665714185320419328)という話もあるらしく、休止前の話はあまりアテにできないかなと思っております。まあ、緑になれたのも、ABC-C までの早解きがそこそこ得意だったからというだけですし。
-
-なので、この記事は復帰後にやった活動について焦点を当てて書こうと思います。具体的には、
+**復帰した以降** について、
 - 環境の整備
-- 解いた問題と、そこから学んだこと
+- 解いた問題
+- 学んだこと
 
-の2点が主たる話題です。
+を書きます。
+
+なんで復帰以前を省くかって言うと、あんま意味なさそうだからです。
+
+この辺も別の記事で追々話せればと思いますが、2021年に入緑しているものの、大した知識はなかったです。
+
+覚えている範囲だと、学んでいたのは BFS/DFS/二分探索/尺取法/imos法/ダイクストラ法 とかそんな感じだったと思います。学んでいた、と言っても、使いこなせているわけでは全然なくて、触れたことがある、程度だったと思います。[difficultyが年間50くらい厳しくなってる](https://twitter.com/chokudai/status/1665714185320419328)という話もあるらしく、休止前の話はレベル感を考えてもあまりアテにできないかなと思っております。緑になれたのも、ABC-C までの早解きがそこそこ得意だったからというだけですし。
+
+そんなわけで、休止前の話は、また別の機会に。
 
 # 環境の整備
 ## コーディング環境
@@ -60,21 +66,11 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 ```
 を使ってます。`ll` と `rep` は特に使用頻度が高いです。
 
-# 解いた問題と、学んだこと
-## 解いた問題
+# 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
 <details>
-  <summary>
-      <span class="summary-text">2024-01</span>
-      <span class="summary-icon" aria-hidden="true">
-          <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-          </svg>
-          <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-          </svg>
-      </span>
-  </summary><div>
+  <summary>2024-01</summary>
+  <div>
 
   - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
   - 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)
@@ -105,9 +101,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [E. Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)
   - 水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
   - 水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)
-</div></details>
+  </div>
+</details>
 
-<details><summary>2023-12</summary><div>
+<details>
+  <summary>2023-12</summary>
+  <div>
 
   - 緑 [E. Christmas Color Grid 1](https://atcoder.jp/contests/abc334/tasks/abc334_e)
   - 茶 [D. Reindeer and Sleigh](https://atcoder.jp/contests/abc334/tasks/abc334_d)
@@ -140,9 +139,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [D. Tile Pattern](https://atcoder.jp/contests/abc331/tasks/abc331_d)
   - 緑 [E. Set Meal](https://atcoder.jp/contests/abc331/tasks/abc331_e)
   - 水 [E. Blackout 2](https://atcoder.jp/contests/abc264/tasks/abc264_e)
-</div></details>
+  </div>
+</details>
 
-<details><summary>2023-11</summary><div>
+<details>
+  <summary>2023-11</summary>
+  <div>
 
   - 水 [E. Strings of Impurity](https://atcoder.jp/contests/abc138/tasks/abc138_e)
   - 緑 [D. Face Produces Unhappiness](https://atcoder.jp/contests/abc140/tasks/abc140_d)
@@ -179,9 +181,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [D. National Railway](https://atcoder.jp/contests/abc210/tasks/abc210_d)
   - 水 [E. Maximize Rating](https://atcoder.jp/contests/abc327/tasks/abc327_e)
   - 茶 [D. Good Tuple Problem](https://atcoder.jp/contests/abc327/tasks/abc327_d)
-</div></details>
+  </div>
+</details>
 
-<details><summary>2023-10</summary><div>
+<details>
+  <summary>2023-10</summary>
+  <div>
 
   - 青 [D. 3N Numbers](https://atcoder.jp/contests/abc062/tasks/arc074_b)
   - 水 [E. Revenge of "The Salary of AtCoder Inc."](https://atcoder.jp/contests/abc326/tasks/abc326_e)
@@ -218,9 +223,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [E. Transition Game](https://atcoder.jp/contests/abc296/tasks/abc296_e)
   - 青 [F. Vacation Query](https://atcoder.jp/contests/abc322/tasks/abc322_f)
   - 水 [D. Polyomino](https://atcoder.jp/contests/abc322/tasks/abc322_d)
-</div></details>
+  </div>
+</details>
 
-<details><summary>2023-09</summary><div>
+<details>
+  <summary>2023-09</summary>
+  <div>
 
   - 緑 [E. Product Development](https://atcoder.jp/contests/abc322/tasks/abc322_e)
   - 緑 [C. Triangular Relationship](https://atcoder.jp/contests/abc108/tasks/arc102_a)
@@ -264,9 +272,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 緑 [E. Sandwiches](https://atcoder.jp/contests/abc318/tasks/abc318_e)
   - 茶 [C. 青 Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c)
   - 水 [E. Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)
-</div></details>
+  </div>
+</details>
 
-<details><summary>2023-08</summary><div>
+<details>
+  <summary>2023-08</summary>
+  <div>
 
   - 緑 [D. Distinct Trio](https://atcoder.jp/contests/abc252/tasks/abc252_d)
   - 緑 [C. Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)
@@ -375,7 +386,8 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 緑 [D. 2-variable Function](https://atcoder.jp/contests/abc246/tasks/abc246_d)
   - 茶 [D. Money in Hand](https://atcoder.jp/contests/abc286/tasks/abc286_d)
   - 水 [F. Cans and Openers](https://atcoder.jp/contests/abc312/tasks/abc312_f)
-</div></details>
+  </div>
+</details>
 
 <details><summary>2023-07</summary><div>
 
@@ -550,33 +562,47 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   
 大変なのは、その解法が頭に一旦浮かんだにもかかわらず、その方針で詰めずに捨ててしまった場合です。なぜその方針を捨ててしまったのかを顧みる必要があります。ex. 計算量の見積りを間違えた、正当性の証明ができなかった、何となくダメそうだから捨てた、等々。
   
-そしてその原因が、問題文の誤読や勘違いによるものであればまだいいのですが、アルゴリズムやデータ構造に関して何らかの勘違いをしていた場合、頭を使ってちゃんと矯正する必要があります。これまたｇｇるなり何なりして、当該アルゴリズム/データ構造のお気持ちをちゃんと理解するフェーズに入ります。
+そしてその原因が、問題文の誤読や勘違いによるものであればまだいいのですが、アルゴリズムやデータ構造に関して何らかの勘違いをしていた場合、ちゃんと矯正する必要があります。これまたｇｇるなり何なりして、当該アルゴリズム/データ構造のお気持ちをちゃんと理解する方向で頭を使います。
   
-100% の理解が無理でも、最悪そのアルゴリズム/データ構造の各操作の計算量がいくつなのか/どのような操作ができるのかがわかればいいです。
+100% の理解が無理でも、最悪そのアルゴリズム/データ構造の各操作の計算量がいくつなのか/どのようなことが実現できるのかぐらいは理解するようにしてました。
 
-## 学んだこと
+# 学んだこと
+## アルゴリズム
 - 順列全列挙
-- めぐる式二分探索
-- `upper_bound` とか `lower_bound` とかの二分探索
 - トポロジカルソート
+- 区間スケジューリング
 - 繰り返し二乗法
 - 二次元累積和
 - Union Find
+- 半分全列挙
+- 三分探索
 - （遅延評価）セグ木
-- lambda 式による再帰
-- 期待値 mod
-- bit DP
-- Path Graph
 - クラスカル法
 - ワーシャルフロイド法
 - SCC
-- ゲーム系の DP とかをメモ化再帰で書くやつ
   
 他にもありそうな気がしますが、覚えてる範囲だとこれぐらいです。
 
+## 実装手法
+- めぐる式二分探索
+- `upper_bound` `lower_bound` による二分探索
+- lambda 式による再帰
+- ゲーム系の DP とかをメモ化再帰で書くやつ
+
+## その他概念とか
+- グラフの頂点倍加
+- 調和級数
+- 群論（ちょっとだけ）
+- functional graph
+- 期待値 DP
+- 期待値 mod
+- 確率 DP
+- 確率 mod
+- bit DP
+
 ## ライブラリ化したもの
-学んだことも踏まえて、手元にライブラリとして置いたものを列挙します。ACL に入っているものは除いています。
-- 進数変換
+学んだアルゴリズムも踏まえて、手元にライブラリとして置いたものを紹介します。ACL に入っているものは書きません。
+- 基数変換
 - ランレングス圧縮
 - [オーバーフロー検出](https://mycode.rip/check-overflow-in-cpp) （あんまり要らないかも？）
 - [繰り返し二乗法によるべき乗の計算](https://algo-logic.info/calc-pow/)
@@ -586,20 +612,46 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 - エラトステネスの篩
 - トポロジカルソート
   
-他にも、BFS/DFS/めぐる式二分探索 なども一時期ライブラリ化していましたが、水色になる頃には何の苦労もなくその場で書けるようになっていたので、捨ててしまってました。残ったのがこれらです。
+他にも、BFS、DFS、めぐる式二分探索 なども一時期ライブラリ化していましたが、水色になる頃には何の苦労もなくその場で書けるようになっていたので、捨ててしまってました。
 
-# 水色になった今、何をやっているか？
+# 学ばなかったこと
+改めて文字に起こしてみると、知らないことだらけですね。「今のところ困ったことがない」と言っているものに関しては、単純に自分の精進不足も大いにあると思います……。
+## 全然わからないもの
+- フロー
+- 平方分割
+- 平面走査
+- FFT
+- Trie
+- カタラン数
+- grundy 数
+- 二部マッチング
+- 最小カット
+- 行列累乗
+## 何ができるかなんとなく知ってるけど今のところできなくて困ったことがないもの
+- ローリングハッシュ
+- ベルマンフォード法
+- 座標圧縮
+## 代替手段が存在して今のところ困ったことがないもの
+- Binary Indexed Tree
+- プリム法
+## 学ぼうとしたけどわからなくて一旦諦めたもの
+- ダイクストラ法のポテンシャル
+- 全方位木 DP
+- Z algorithm
+
+# 水色になった今、何をやっているか
 特に変わったことをやっているわけでもないのですが、水 diff 埋めを積極的にやるようになりました。AtCoder Problems の heat map を見てみるとこんな感じです。
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/heat_map.png)
 
-前述したもの以外でもライブラリ化したものが若干増えており、
+あと手元のライブラリが若干増えており、
 - [重み付き Union Find](https://zenn.dev/reputeless/books/standard-cpp-for-competitive-programming/viewer/weighted-union-find)
 - [ロールバック可能 Union Find](https://atcoder.jp/contests/abc328/submissions/47458831)
 - [拡張 GCD](https://qiita.com/drken/items/b97ff231e43bce50199a)
 
-あたりを新たに取り入れました。使うこと自体はそんなに多くないですね。
+あたりを窃盗しました。使うこと自体はそんなに多くないですが、持ってると貼るだけがたまに発生します。
 
 # おわり
-締まりのない感じになっちゃいましたが、まあ、そんな感じです。青目指してがんばろうと思います。
+良い締めが思いつかないです。青目指して？気長にがんばろうと思います。まあ、そんな感じです。  
+ありがとうございました。
 
 [トップへ戻る](https://cyan515.github.io/blogs/)
