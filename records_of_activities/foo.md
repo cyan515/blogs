@@ -84,13 +84,12 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
                 </span>
             </summary>
             <div class="details-text">
-<ul>
-    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_c">C. Max - Min Query</a><br/>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_d">D. FizzBuzz Sum Hard</a><br/>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc294/tasks/abc294_e">E. 2xN Grid</a><br/>
-    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d">D. Lucky PIN</a><br/>
-    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc295/tasks/abc295_d">D. Three Days Ago</a><br/>
+<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
+<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_c">C. Max - Min Query</a><br/>
+<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_d">D. FizzBuzz Sum Hard</a><br/>
+<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc294/tasks/abc294_e">E. 2xN Grid</a><br/>
+<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d">D. Lucky PIN</a><br/>
+<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc295/tasks/abc295_d">D. Three Days Ago</a><br/>
             </div>
         </details>
     </div>
