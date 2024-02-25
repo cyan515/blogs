@@ -68,6 +68,34 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 
 # 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
+
+<div class="details-sample-01">
+    <div class="details-wrap">
+        <details>
+            <summary>
+                <span class="summary-text">2023-03</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">
+<ul>
+    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
+    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_c">C. Max - Min Query</a><br/>
+    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_d">D. FizzBuzz Sum Hard</a><br/>
+    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc294/tasks/abc294_e">E. 2xN Grid</a><br/>
+    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d">D. Lucky PIN</a><br/>
+    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc295/tasks/abc295_d">D. Three Days Ago</a><br/>
+            </div>
+        </details>
+    </div>
+</div>
+
 <details><summary>2023-03</summary><div>
 
 <ul>
