@@ -6,6 +6,7 @@
   </body>
 </html>
 
+# cyan が AtCoder で cyan になるまで
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
 # この記事に書いてあること
