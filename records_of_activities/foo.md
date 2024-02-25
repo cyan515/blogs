@@ -75,9 +75,9 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 
 # 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
-
 <div class="details-sample-01">
     <div class="details-wrap">
+
         <details>
             <summary>
                 <span class="summary-text">2023-03</span>
@@ -90,33 +90,30 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
                     </svg>
                 </span>
             </summary>
-            <div class="details-text">
-<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
-<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_c">C. Max - Min Query</a><br/>
-<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_d">D. FizzBuzz Sum Hard</a><br/>
-<font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc294/tasks/abc294_e">E. 2xN Grid</a><br/>
-<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d">D. Lucky PIN</a><br/>
-<font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc295/tasks/abc295_d">D. Three Days Ago</a><br/>
-            </div>
-        </details>
-    </div>
-</div>
-
-<details><summary>2023-03</summary><div>
-
-<ul>
-    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
+            <div class="details-text">    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc293/tasks/abc293_d">D. Tying Rope</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_c">C. Max - Min Query</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc253/tasks/abc253_d">D. FizzBuzz Sum Hard</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc294/tasks/abc294_e">E. 2xN Grid</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d">D. Lucky PIN</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc295/tasks/abc295_d">D. Three Days Ago</a><br/>
-</ul></div></details>
 
-<details><summary>2023-04</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc296/tasks/abc296_d">D. M<=ab</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-04</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc296/tasks/abc296_d">D. M<=ab</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc288/tasks/abc288_c">C. Don’t be cycle</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc055/tasks/arc069_a">C. Scc Puzzle</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc277/tasks/abc277_c">C. Ladder Takahashi</a><br/>
@@ -131,12 +128,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc300/tasks/abc300_d">D. AABCC</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc055/tasks/arc069_a">C. Scc Puzzle</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc276/tasks/abc276_d">D. Divide by 2 or 3</a><br/>
-</ul></div></details>
 
-<details><summary>2023-05</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc220/tasks/abc220_d">D. FG operation</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-05</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc220/tasks/abc220_d">D. FG operation</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc292/tasks/abc292_e">E. Transitivity</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc268/tasks/abc268_c">C. Chinese Restaurant</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_d">D. Road to Millionaire</a><br/>
@@ -181,12 +190,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc217/tasks/abc217_d">D. Cutting Woods</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/agc012/tasks/agc012_a">A. AtCoder Group Contest</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/arc154/tasks/arc154_b">B. New Place</a><br/>
-</ul></div></details>
 
-<details><summary>2023-06</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/arc104/tasks/arc104_b">B. DNA Sequence</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-06</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/arc104/tasks/arc104_b">B. DNA Sequence</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc234/tasks/abc234_d">D. Prefix K-th Max</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc304/tasks/abc304_e">E. Good Graph</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc304/tasks/abc304_d">D. A Piece of Cake</a><br/>
@@ -214,12 +235,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc307/tasks/abc307_d">D. Mismatched Parentheses</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc307/tasks/abc307_e">E. Distinct Adjacent</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc307/tasks/abc307_c">C. Ideal Sheet</a><br/>
-</ul></div></details>
 
-<details><summary>2023-07</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc308/tasks/abc308_d">D. Snuke Maze</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-07</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc308/tasks/abc308_d">D. Snuke Maze</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc308/tasks/abc308_c">C. Standings</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc308/tasks/abc308_e">E. MEX</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc308/tasks/abc308_f">F. Vouchers</a><br/>
@@ -271,12 +304,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc312/tasks/abc312_c">C. Invisible Hand</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc312/tasks/abc312_d">D. Count Bracket Sequences</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc215/tasks/abc215_d">D. Coprime 2</a><br/>
-</ul></div></details>
 
-<details><summary>2023-08</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc312/tasks/abc312_f">F. Cans and Openers</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-08</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc312/tasks/abc312_f">F. Cans and Openers</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc286/tasks/abc286_d">D. Money in Hand</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc246/tasks/abc246_d">D. 2-variable Function</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/caddi2018b/tasks/caddi2018_a">C. Product and GCD</a><br/>
@@ -381,12 +426,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc112/tasks/abc112_d">D. Partition</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc112/tasks/abc112_c">C. Pyramid</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc252/tasks/abc252_d">D. Distinct Trio</a><br/>
-</ul></div></details>
 
-<details><summary>2023-09</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc134/tasks/abc134_e">E. Sequence Decomposing</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-09</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc134/tasks/abc134_e">E. Sequence Decomposing</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc318/tasks/abc318_c">C. Blue Spring</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc318/tasks/abc318_e">E. Sandwiches</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc318/tasks/abc318_d">D. General Weighted Max Matching</a><br/>
@@ -428,12 +485,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc085/tasks/abc085_d">D. Katana Thrower</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc108/tasks/arc102_a">C. Triangular Relationship</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc322/tasks/abc322_e">E. Product Development</a><br/>
-</ul></div></details>
 
-<details><summary>2023-10</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc322/tasks/abc322_d">D. Polyomino</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-10</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc322/tasks/abc322_d">D. Polyomino</a><br/>
     <font style="color: rgb(0,0,225);" size="6">●</font> <a href="https://atcoder.jp/contests/abc322/tasks/abc322_f">F. Vacation Query</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc296/tasks/abc296_e">E. Transition Game</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc281/tasks/abc281_d">D. Max Multiple</a><br/>
@@ -468,12 +537,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc326/tasks/abc326_d">D. ABC Puzzle</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc326/tasks/abc326_e">E. Revenge of "The Salary of AtCoder Inc."</a><br/>
     <font style="color: rgb(0,0,225);" size="6">●</font> <a href="https://atcoder.jp/contests/abc062/tasks/arc074_b">D. 3N Numbers</a><br/>
-</ul></div></details>
 
-<details><summary>2023-11</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc327/tasks/abc327_d">D. Good Tuple Problem</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-11</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc327/tasks/abc327_d">D. Good Tuple Problem</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc327/tasks/abc327_e">E. Maximize Rating</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc210/tasks/abc210_d">D. National Railway</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc183/tasks/abc183_e">E. Queen on Grid</a><br/>
@@ -508,12 +589,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc164/tasks/abc164_d">D. Multiple of 2019</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc140/tasks/abc140_d">D. Face Produces Unhappiness</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc138/tasks/abc138_e">E. Strings of Impurity</a><br/>
-</ul></div></details>
 
-<details><summary>2023-12</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc264/tasks/abc264_e">E. Blackout 2</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2023-12</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc264/tasks/abc264_e">E. Blackout 2</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc331/tasks/abc331_e">E. Set Meal</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc331/tasks/abc331_d">D. Tile Pattern</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc331/tasks/abc331_e">E. Set Meal</a><br/>
@@ -544,12 +637,24 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc334/tasks/abc334_c">C. Socks 2</a><br/>
     <font style="color: rgb(128,64,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc334/tasks/abc334_d">D. Reindeer and Sleigh</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc334/tasks/abc334_e">E. Christmas Color Grid 1</a><br/>
-</ul></div></details>
 
-<details><summary>2024-01</summary><div>
+            </div>
+        </details>
 
-<ul>
-    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc153/tasks/abc153_f">F. Silver Fox vs Monster</a><br/>
+
+        <details>
+            <summary>
+                <span class="summary-text">2024-01</span>
+                <span class="summary-icon" aria-hidden="true">
+                    <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="details-text">    <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc153/tasks/abc153_f">F. Silver Fox vs Monster</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc197/tasks/abc197_e">E. Traveler</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc169/tasks/abc169_e">E. Count Median</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc180/tasks/abc180_e">E. Traveling Salesman among Aerial Cities</a><br/>
@@ -578,7 +683,10 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc159/tasks/abc159_e">E. Dividing Chocolate</a><br/>
     <font style="color: rgb(0,128,0);" size="6">●</font> <a href="https://atcoder.jp/contests/abc305/tasks/abc305_e">E. Art Gallery on Graph</a><br/>
     <font style="color: rgb(0,192,192);" size="6">●</font> <a href="https://atcoder.jp/contests/abc128/tasks/abc128_d">D. equeue</a><br/>
-</ul></div></details>
+
+            </div>
+        </details>
+</div></div>
 
 ## 精進で意識していたこと
 前述の通り、解く速度に関してはそんなに課題を感じていなかったので、とにかく解ける問題を増やす方向で考えていました。方針が見えなくても、なんとなく思考が進む限り、どれだけ短くとも30分-1時間ほどは考えていたと思います。特に適正 difficulty よりも高い問題の内、行けそうで行けない、でもちょっと行けそう、みたいな問題は数日間頭の中に置いておくこともありました。途中で、まったくどん詰まりになったら解説を見ます。
