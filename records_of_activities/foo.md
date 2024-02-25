@@ -68,8 +68,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 
 # 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
-<div class="details-sample-01">
-  <div class="details-wrap">
     <details>
       <summary>2024-01</summary>
 
@@ -103,8 +101,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
   - 水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)
     </details>
-  </div>
-</div>
 
 <details>
   <summary>2023-12</summary>
