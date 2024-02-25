@@ -1,5 +1,7 @@
 # cyan が AtCoder で cyan になるまで
 
+![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
+
 <html>
   <head>
     <link rel="stylesheet" href="https://cyan515.github.io/blogs/records_of_activities/css/cyan.css" type="text/css">
@@ -9,8 +11,6 @@
 </html>
 
 ## この記事に書いてあること
-
-![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
 レートのグラフを見ればわかる通り、2021年の夏から2023年の頭までコンテストに出てませんでした。精進もほぼしておらず、実質休止期間です。
 
