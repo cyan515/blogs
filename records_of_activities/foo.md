@@ -72,7 +72,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <div class="details-wrap">
     <details>
       <summary>2024-01</summary>
-      <div>
 
   - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
   - 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)
@@ -103,7 +102,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [E. Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)
   - 水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
   - 水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)
-      </div>
     </details>
   </div>
 </div>
