@@ -1,3 +1,5 @@
+# cyan が AtCoder で cyan になるまで
+
 <html>
   <head>
     <link rel="stylesheet" href="https://cyan515.github.io/blogs/records_of_activities/css/cyan.css" type="text/css">
@@ -5,8 +7,6 @@
   <body>
   </body>
 </html>
-
-# cyan が AtCoder で cyan になるまで
 
 ## この記事に書いてあること
 
