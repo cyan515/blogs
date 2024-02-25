@@ -89,6 +89,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
           </svg>
         </span>
       </summary>
+      
       <div>
 
   - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
