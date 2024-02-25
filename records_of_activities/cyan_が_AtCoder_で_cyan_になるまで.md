@@ -827,4 +827,4 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 良い締めが思いつかないです。青目指して？気長にがんばろうと思います。まあ、そんな感じです。  
 ありがとうございました。
 
-[トップへ戻る](https://cyan515.github.io/blogs/)
+[ホームへ戻る](https://cyan515.github.io/blogs/)
