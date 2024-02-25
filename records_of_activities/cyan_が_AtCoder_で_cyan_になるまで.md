@@ -1,6 +1,7 @@
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
 # この記事に書いてあること
+
 レート遷移のグラフを見ての通り、2021年の夏から2023年の頭までコンテストに出ておらず、ブランクとなっています。まったく問題を解いていなかったわけではないですが、解いた問題に大したものは含まれていないため、実質休止期間です。
 
 また、この辺も別の記事で追々話せればと思いますが、2021年に入緑しているものの、大した知識はなかったです。
@@ -62,7 +63,18 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 # 解いた問題と、学んだこと
 ## 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
-<details><summary>2024-01</summary><div>
+<details>
+  <summary>
+      <span class="summary-text">2024-01</span>
+      <span class="summary-icon" aria-hidden="true">
+          <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+          </svg>
+          <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+          </svg>
+      </span>
+  </summary><div>
 
   - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
   - 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)
