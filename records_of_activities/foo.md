@@ -99,7 +99,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>水 [E. Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)</li>
   <li>水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)</li>
   <li>水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-12</summary><div>
 
@@ -134,7 +134,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>水 [D. Tile Pattern](https://atcoder.jp/contests/abc331/tasks/abc331_d)</li>
   <li>緑 [E. Set Meal](https://atcoder.jp/contests/abc331/tasks/abc331_e)</li>
   <li>水 [E. Blackout 2](https://atcoder.jp/contests/abc264/tasks/abc264_e)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-11</summary><div>
 
@@ -173,7 +173,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>水 [D. National Railway](https://atcoder.jp/contests/abc210/tasks/abc210_d)</li>
   <li>水 [E. Maximize Rating](https://atcoder.jp/contests/abc327/tasks/abc327_e)</li>
   <li>茶 [D. Good Tuple Problem](https://atcoder.jp/contests/abc327/tasks/abc327_d)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-10</summary><div>
 
@@ -212,7 +212,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>水 [E. Transition Game](https://atcoder.jp/contests/abc296/tasks/abc296_e)</li>
   <li>青 [F. Vacation Query](https://atcoder.jp/contests/abc322/tasks/abc322_f)</li>
   <li>水 [D. Polyomino](https://atcoder.jp/contests/abc322/tasks/abc322_d)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-09</summary><div>
 
@@ -258,7 +258,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>緑 [E. Sandwiches](https://atcoder.jp/contests/abc318/tasks/abc318_e)</li>
   <li>茶 [C. 青 Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c)</li>
   <li>水 [E. Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-08</summary><div>
 
@@ -369,7 +369,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>緑 [D. 2-variable Function](https://atcoder.jp/contests/abc246/tasks/abc246_d)</li>
   <li>茶 [D. Money in Hand](https://atcoder.jp/contests/abc286/tasks/abc286_d)</li>
   <li>水 [F. Cans and Openers](https://atcoder.jp/contests/abc312/tasks/abc312_f)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-07</summary><div>
 
@@ -425,7 +425,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>緑 [E. MEX](https://atcoder.jp/contests/abc308/tasks/abc308_e)</li>
   <li>茶 [C. Standings](https://atcoder.jp/contests/abc308/tasks/abc308_c)</li>
   <li>茶 [D. Snuke Maze](https://atcoder.jp/contests/abc308/tasks/abc308_d)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-06</summary><div>
 
@@ -457,7 +457,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>緑 [E. Good Graph](https://atcoder.jp/contests/abc304/tasks/abc304_e)</li>
   <li>茶 [D. Prefix K-th Max](https://atcoder.jp/contests/abc234/tasks/abc234_d)</li>
   <li>茶 [B. DNA Sequence](https://atcoder.jp/contests/arc104/tasks/arc104_b)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-05</summary><div>
 
@@ -506,7 +506,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>茶 [C. Chinese Restaurant](https://atcoder.jp/contests/abc268/tasks/abc268_c)</li>
   <li>水 [E. Transitivity](https://atcoder.jp/contests/abc292/tasks/abc292_e)</li>
   <li>茶 [D. FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-04</summary><div>
 
@@ -525,7 +525,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>茶 [C. Scc Puzzle](https://atcoder.jp/contests/abc055/tasks/arc069_a)</li>
   <li>茶 [C. Don’t be cycle](https://atcoder.jp/contests/abc288/tasks/abc288_c)</li>
   <li>緑 [D. M<=ab](https://atcoder.jp/contests/abc296/tasks/abc296_d)</li>
-<div></details>
+</div></details>
 
 <details><summary>2023-03</summary><div>
 
@@ -535,8 +535,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   <li>茶 [D. FizzBuzz Sum Hard](https://atcoder.jp/contests/abc253/tasks/abc253_d)</li>
   <li>茶 [C. Max - Min Query](https://atcoder.jp/contests/abc253/tasks/abc253_c)</li>
   <li>緑 [D. Tying Rope](https://atcoder.jp/contests/abc293/tasks/abc293_d)</li>
-<div></details>
-
+</div></details>
 
 ## 精進で意識していたこと
 前述の通り、解く速度に関してはそんなに課題を感じていなかったので、とにかく解ける問題を増やす方向で考えていました。方針が見えなくても、なんとなく思考が進む限り、どれだけ短くとも30分-1時間ほどは考えていたと思います。特に適正 difficulty よりも高い問題の内、行けそうで行けない、でもちょっと行けそう、みたいな問題は数日間頭の中に置いておくこともありました。途中で、まったくどん詰まりになったら解説を見ます。
