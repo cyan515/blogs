@@ -159,4 +159,4 @@ class TailCalls {
 ## ラムダ式で合成
 ## すべてをまとめて
 
-[トップへ戻る](https://cyan515.github.io/blogs/)
+[ホームへ戻る](https://cyan515.github.io/blogs/)
