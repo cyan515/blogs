@@ -1,3 +1,8 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cyan515.github.io/blogs/records_of_activities/css/cyan.css" type="text/css">
+  </head>
+  <body>
 
 ![](./images/cyan_が_AtCoder_で_cyan_になるまで/rating_graph.png)
 
@@ -68,9 +73,21 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 
 # 解いた問題
 復帰後～入水までの間に解いた問題の内、difficulty が茶色以上のものを抽出しました。精進の指針の一端でも担えればと思います。
-<details>
-  <summary>2024-01</summary>
-  <div>
+<div class="details-sample-01">
+  <div class="details-wrap">
+    <details>
+      <summary>
+        <span class="summary-text">2024-01</span>
+          <span class="summary-icon" aria-hidden="true">
+            <svg class="open-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+            </svg>
+            <svg class="close-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+            </svg>
+          </span>
+      </summary>
+      <div class="details-text>
 
   - 水 [D. equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)
   - 緑 [E. Art Gallery on Graph](https://atcoder.jp/contests/abc305/tasks/abc305_e)
@@ -101,8 +118,10 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
   - 水 [E. Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)
   - 水 [E. Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
   - 水 [F. Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)
+      </div>
+    </details>
   </div>
-</details>
+</div>
 
 <details>
   <summary>2023-12</summary>
@@ -655,3 +674,6 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 ありがとうございました。
 
 [トップへ戻る](https://cyan515.github.io/blogs/)
+
+  </body>
+</html>
