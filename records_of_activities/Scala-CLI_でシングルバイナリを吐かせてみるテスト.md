@@ -17,7 +17,7 @@
 - [sbt のインストール](https://www.scala-sbt.org/release/docs/Setup.html)
 - [Visual Studio のインストール](https://visualstudio.microsoft.com/ja/vs/community/)
 
-それぞれ何のツールなのかは~よくわかってない~世の中にもっといい記事があると思いますので、譲ります。
+それぞれ何のツールなのかは~~よくわかってない~~世の中にもっといい記事があると思いますので、譲ります。
 
 それぞれ入れ方を順に説明します。
 
@@ -93,7 +93,7 @@ scala -version
 でちゃんとバージョンが表示されるか確かめて、終わりです。
 
 ### Visual Studio のインストール
-~これに至ってはなんで必要なのかあんま理解してなかったり~  
+~~これに至ってはなんで必要なのかあんま理解してなかったり~~  
 [こちらの記事](https://qiita.com/semiflat/items/43988856501ca94526e4) を参考に進めます。というか
 > Build Tools for Visual Studio 2022 インストール手順
 
