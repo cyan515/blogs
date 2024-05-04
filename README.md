@@ -13,4 +13,4 @@
 - [Javaによる関数型プログラミング](/records_of_reading/Javaによる関数型プログラミング.md)
 - [リファクタリング 既存のコードを安全に改善する](/records_of_reading/リファクタリング.md)
 - [プログラマが知るべき97のこと](/records_of_reading/プログラマが知るべき97のこと.md)
-- [Web API The Good Parts](/records_of_reading/Web_API_The_Good_Parts.md)
+- [Web API: The Good Parts](/records_of_reading/Web_API:_The_Good_Parts.md)
