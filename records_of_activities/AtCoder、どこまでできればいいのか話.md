@@ -13,7 +13,7 @@
 ## 2017/03/27
 > AtCoder、**ABCのBまでは出来ないとさすがにエンジニアとしてはNG**で、C問題はまぁ出来たほうが良い、D問題まで出来ると十分過ぎる、って感じ
 
-[tweet](https://twitter.com/chokudai/status/846230341194924032)
+[tweet](https://twtr.satoru.net/?mode=finish&url=https://twitter.com/chokudai/status/846230341194924032)
 
 [直前に開かれたコンテスト](https://atcoder.jp/contests/abc057)
 
