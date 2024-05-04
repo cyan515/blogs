@@ -765,7 +765,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 学んだアルゴリズムも踏まえて、手元にライブラリとして置いたものを紹介します。
 - 基数変換
 - ランレングス圧縮
-- [オーバーフロー検出](https://mycode.rip/check-overflow-in-cpp) （あんまり要らないかも？）
+- [オーバーフロー検出](https://github.com/cyan515/competitive-programming/blob/main/my-library/overflow_if_mul.cpp) （あんまり要らないかも？）
 - [繰り返し二乗法によるべき乗の計算](https://algo-logic.info/calc-pow/)
 - [部分文字列で使う `calcNext`](https://qiita.com/drken/items/a207e5ae3ea2cf17f4bd)
 - combination
@@ -776,7 +776,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 他にも、BFS、DFS、めぐる式二分探索 なども一時期ライブラリ化していましたが、水色になる頃には何の苦労もなくその場で書けるようになっていたので、捨ててしまってました。
 
 ## ACL で使えるようになったもの
-[AtCoder Library](https://atcoder.github.io/ac-library/document_ja/index.html) の中で使えるようになったものを紹介します。
+[AtCoder Library](https://atcoder.github.io/ac-library/master/document_ja/index.html) の中で使えるようになったものを紹介します。
 - `dsu`
 - `inv_mod`
 - `segtree`
@@ -791,6 +791,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 - 平方分割
 - 平面走査
 - FFT
+- FPS
 - Trie
 - カタラン数
 - grundy 数
