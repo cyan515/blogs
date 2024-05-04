@@ -1,4 +1,4 @@
-# Web API The Good Parts
+# Web API: The Good Parts
 
 ## 1章 Web API とは何か
 
