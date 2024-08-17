@@ -4,7 +4,7 @@
 - [第1章 はじめに](#1-)
 - [第2章 オブジェクトの生成と消滅](#2-)
    * [コンストラクタの代わりに static ファクトリメソッドを検討する](#-static-)
-   * [多くのコンストラクタパラメータに直面したときはビルダーを検討する](#)
+   * [多くのコンストラクタパラメータに直面したときはビルダーを検討する](#think-about-builder-pattern-when-faced-with-many-constructor-parameters)
    * [private のコンストラクタか enum 型でシングルトン特性を強制する](#private-enum-)
    * [private のコンストラクタでインスタンス化不可能を強制する](#private-)
    * [資源を直接結び付けるよりも依存性注入を選ぶ](#-1)
@@ -104,7 +104,7 @@
    * [インスタンス制御に対しては readResolve よりも enum 型を選ぶ](#-readresolve-enum-)
    * [シリアライズされたインスタンスの代わりに、シリアライズ・プロキシを検討する](#-62)
 
-<a name="on-effective-java-"></a>
+<a name="on-effective-java"></a>
 # Effective Java によせて
 - 言語は文法・語彙・慣用法を学ばないと natural に話せない。
   - 前二者は習うけど、3つ目はなかなか習わないよね。
@@ -141,7 +141,7 @@
   - コンストラクタとファクトリメソッドはそれぞれ長所・短所があるので、static ファクトリメソッドは一旦は検討しておこうね。
 
 
-<a name=""></a>
+<a name="think-about-builder-pattern-when-faced-with-many-constructor-parameters"></a>
 ## 多くのコンストラクタパラメータに直面したときはビルダーを検討する
 - テレスコーピングコンストラクタパターン：少なければいいけどね……
 - JavaBeans パターン：set し忘れる可能性もあるし、mutation はスレッドセーフじゃない。しかもそれによる不具合がずっと後の処理で起こるかもしれない。
