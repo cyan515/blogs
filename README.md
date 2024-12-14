@@ -17,3 +17,4 @@
 - [Web API: The Good Parts](./records_of_reading/Web_API_The_Good_Parts.md)
 - [ドメイン駆動設計入門](./records_of_reading/ドメイン駆動設計入門.md)
 - [プログラマー脳](./records_of_reading/プログラマー脳.md)
+- [「何回説明しても伝わらない」はなぜ起こるのか？](./records_of_reading/「何回説明しても伝わらない」はなぜ起こるのか？.md)
