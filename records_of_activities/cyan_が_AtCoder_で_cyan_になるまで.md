@@ -765,7 +765,7 @@ template <typename T> istream &operator>>(istream &is, vector<T> &v) {for (T &in
 学んだアルゴリズムも踏まえて、手元にライブラリとして置いたものを紹介します。
 - 基数変換
 - ランレングス圧縮
-- [オーバーフロー検出](https://github.com/cyan515/competitive-programming/blob/main/my-library/overflow_if_mul.cpp) （あんまり要らないかも？）
+- ~~オーバーフロー検出 （あんまり要らないかも？）~~ -> 要らないです。`__builtin_mul_overflow` を使いましょう。
 - [繰り返し二乗法によるべき乗の計算](https://algo-logic.info/calc-pow/)
 - [部分文字列で使う `calcNext`](https://qiita.com/drken/items/a207e5ae3ea2cf17f4bd)
 - combination
